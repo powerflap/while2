@@ -67,14 +67,14 @@ public class Main {
                 System.out.println("Задание 6  ");
                 int cash = 15000;
                 int totalFourth = 0;
-                int n = 1;
-                for (; n <= 108; n++) {
+                int j = 1;
+                for (; j <= 108; j++) {
                     totalFourth = totalFourth + cash;
                     totalFourth += (int) (totalFourth * 0.07);
-                    if (n % 6 == 0) {
+                    if (j % 6 == 0) {
 
 
-                        System.out.println("Месяц " + n + " сумма накоплений равна " + totalFourth + " рублей");
+                        System.out.println("Месяц " + j + " сумма накоплений равна " + totalFourth + " рублей");
                     }
                 }
                 System.out.println("Задание 7  ");
